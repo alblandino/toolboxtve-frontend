@@ -79,7 +79,7 @@ Si quieres usar **Docker**, aquí tienes cómo levantar todo en un contenedor. �
 2. Corre el contenedor:
 
    ```bash
-   docker run -p 3000:3000 --env-file .env toolboxtve-frontend
+   docker run -p 4000:4000 toolboxtve-frontend
    ```
 
    Esto va a mapear el puerto `4000` del contenedor a `4000` en tu máquina local.
