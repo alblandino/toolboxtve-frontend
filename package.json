@@ -4,6 +4,9 @@
   "version": "1.0.0",
   "description": "Challenge para la posicion FULLSTACK (MERN STACK)-REMOTE de Toolbox",
   "main": "index.js",
+  "engines": {
+    "node": "16.x"
+  },
   "scripts": {
     "start": "webpack serve --mode development --open",
     "build": "webpack --mode production",
