@@ -65,3 +65,27 @@ Algunas instrucciones clave para el desarrollo:
 - Para modificar el estilo visual, se está utilizando **React Bootstrap**.
 - Los datos de los archivos se obtienen de una API y se almacenan utilizando **Redux**.
 - Las pruebas se manejan con **Jest**.
+
+## 🐳 Configuración con Docker
+
+Si quieres usar **Docker**, aquí tienes cómo levantar todo en un contenedor. 🎉
+
+1. Construye la imagen de Docker:
+
+   ```bash
+   docker build -t toolboxtve-frontend .
+   ```
+
+2. Corre el contenedor:
+
+   ```bash
+   docker run -p 3000:3000 --env-file .env toolboxtve-frontend
+   ```
+
+   Esto va a mapear el puerto `4000` del contenedor a `4000` en tu máquina local.
+
+3. Ahora la aplicación debería estar corriendo en:
+
+   ```bash
+   http://localhost:4000
+   ```
