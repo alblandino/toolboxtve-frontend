@@ -1,5 +1,3 @@
-> **Disclaimer**: ayer envie un correo electronico con algunas dudas respecto a las pruebas unitarias y el mismo no fue respondido, entonces como tenia el tiempo encima con la entrega del proyecto tuve que enviarlo asi
-
 # 📺 ToolboxTV Challenge - Frontend App
 
 Este proyecto es el frontend para la prueba de Toolbox TV. Se ha desarrollado utilizando **React**, **Redux**, **React Bootstrap**, y **Jest** para los tests. El propósito de este frontend es consumir un API que muestra una lista de archivos y permite filtrarlos por su nombre.
