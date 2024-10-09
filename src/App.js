@@ -34,7 +34,7 @@ const App = () => {
       setLoading(false) // Quitar el loader siempre, ya sea que la carga fue exitosa o no
     }
   }
-  
+
   useEffect(() => {
     fetchFiles() // Cargar todos los archivos al montar el componente
   }, [dispatch])

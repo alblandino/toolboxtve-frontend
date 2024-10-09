@@ -1,3 +1,4 @@
+import { describe, expect, test } from 'node:test'
 import React from 'react'
 import { render, screen } from '@testing-library/react'
 import '@testing-library/jest-dom'
@@ -12,8 +13,6 @@ describe('Componente inicial', () => {
         <App />
       </Provider>
     )
-
-    // Verificar que se renderiza correctamente el texto de la barra de navegación
     const navbarText = screen.getByText(/React Test App/i)
     expect(navbarText).toBeInTheDocument()
   })
