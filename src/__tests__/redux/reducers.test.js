@@ -1,4 +1,4 @@
-import { describe, it, expect } from 'node:test'
+/* eslint-disable no-undef */
 import rootReducer from '../../redux/reducers'
 
 describe('Redux Reducers', () => {

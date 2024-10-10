@@ -1,4 +1,4 @@
-import { describe, it, expect } from 'node:test'
+/* eslint-disable no-undef */
 import { setFiles } from '../../redux/actions'
 
 describe('Redux Actions', () => {
